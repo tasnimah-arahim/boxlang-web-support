@@ -19,8 +19,6 @@ package ortus.boxlang.web;
 
 import java.net.URI;
 import java.nio.file.Path;
-import java.security.Key;
-import java.sql.Struct;
 import java.util.Optional;
 import java.util.Set;
 
@@ -30,8 +28,10 @@ import ortus.boxlang.runtime.context.RequestBoxContext;
 import ortus.boxlang.runtime.dynamic.casters.StringCaster;
 import ortus.boxlang.runtime.dynamic.casters.StructCaster;
 import ortus.boxlang.runtime.interop.DynamicObject;
+import ortus.boxlang.runtime.scopes.Key;
 import ortus.boxlang.runtime.services.InterceptorService;
 import ortus.boxlang.runtime.types.IStruct;
+import ortus.boxlang.runtime.types.Struct;
 import ortus.boxlang.runtime.types.exceptions.AbortException;
 import ortus.boxlang.runtime.types.exceptions.BoxRuntimeException;
 import ortus.boxlang.runtime.types.exceptions.MissingIncludeException;
